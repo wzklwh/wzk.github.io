@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录界面</title>
+</head>
+<style>
+    table{
+        width: 300px;
+        height: 200px;
+        font-size: 10px;
+        }
+    #we{
+       text-align: right;
+       font-size: 12px;
+    }
+    span{
+        color: red;
+    }
+    #wer{
+       width: 210px;
+        height: 30px;
+       line-height: 30px;
+      
+       background: url(./img/one4.jpg) no-repeat 195px 7px ;
+       
+    }
+    #wera{
+        width: 210px;
+        height: 30px;
+        line-height: 30px;
+        background: url(./img/one5.jpg) no-repeat 195px 7px ;
+    }
+    #weee{
+        width: 600px;
+        font-size: 3px;
+
+    }
+    button{
+        width: 200px;
+        height: 40px;
+        background-color: red;
+        border: none;
+    }
+</style>
+<body>
+    <table>
+     <tr>
+        <td colspan="2" >账户信息</td>
+        <!-- <td></td> -->
+    </tr>
+    <br>
+    <tr >
+        <td id="we"><span>*</span>用户名:</td>
+        <td ><input type="text" id="wer"></td>
+    </tr>
+    <br>
+    <tr>
+        <td id="we"><span>*</span>请设置密码:</td>
+        <td><input type="password" id="wera"></td>
+    </tr>
+    <br>
+    <tr>
+        <td id="we"><span>*</span>请确认密码:</td>
+        <td><input type="password" id="wera"></td>
+    </tr> 
+    </table>
+    <table>
+        <tr>
+           <td colspan="2" >联系人信息</td>
+           <!-- <td></td> -->
+       </tr>
+       <br>
+       <tr >
+           <td id="we"><span>*</span>联系人姓名:</td>
+           <td ><input type="text" ></td>
+       </tr>
+       <br>
+       <tr>
+           <td id="we"><span>*</span>所在部门:</td>
+           <td>
+            <select name="" id="">
+                <option value="">请选择</option>
+                <option value="">财政部</option>
+                <option value="">人力资源部</option>
+                <option value="">技术部</option>
+                <option value="">生产部</option>
+                <option value="">采购部</option>
+                <option value="">质管部</option>
+            </select>
+           </td>
+       </tr>
+       <br>
+       <tr>
+           <td id="we"><span>*</span>固定电话:</td>
+           <td><input type="text" ></td>
+       </tr> 
+       </table>
+       <table  id="weee">
+        <tr>
+           <td colspan="2" >公司信息</td>
+           <!-- <td></td> -->
+       </tr>
+       <br>
+       <tr >
+           <td id="we"><span>*</span>公司名称:</td>
+           <td ><input type="text" ></td>
+       </tr>
+       <br>
+       <tr>
+           <td id="we"><span>*</span>购买类型/用途:</td>
+           <td ><input type="checkbox" >IT设备 
+            <input type="checkbox">数码通讯 <input type="checkbox">办公用品耗材 
+            <input type="checkbox">大家电 
+            <input type="checkbox">项目合作—政府采购 
+            <input type="checkbox">礼品
+            </td>
+       </tr>
+       <br>
+       <tr>
+        <td></td>
+        <td><button>立即注册</button></td>
+       </tr>
+    </table>
+
+   
+</body>
+</html>
